@@ -15,12 +15,6 @@
 /* Define to 1 if you have the <inttypes.h> header file. */
 #undef HAVE_INTTYPES_H
 
-/* Define to 1 if you have the `kevent' function. */
-#undef HAVE_KEVENT
-
-/* Define to 1 if you have the `kqueue' function. */
-#undef HAVE_KQUEUE
-
 /* Define to 1 if you have the `malloc' function. */
 #undef HAVE_MALLOC
 
@@ -53,6 +47,9 @@
 
 /* Define to 1 if you have the <stdlib.h> header file. */
 #undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the `strdup' function. */
+#undef HAVE_STRDUP
 
 /* Define to 1 if you have the <strings.h> header file. */
 #undef HAVE_STRINGS_H

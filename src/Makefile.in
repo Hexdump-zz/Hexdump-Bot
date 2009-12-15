@@ -52,7 +52,7 @@ am_hexdump_bot_OBJECTS = hexdump_bot-main.$(OBJEXT) \
 	hexdump_bot-util.$(OBJEXT)
 hexdump_bot_OBJECTS = $(am_hexdump_bot_OBJECTS)
 am__DEPENDENCIES_1 =
-hexdump_bot_DEPENDENCIES = $(am__DEPENDENCIES_1)
+hexdump_bot_DEPENDENCIES = $(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 hexdump_bot_LINK = $(CCLD) $(hexdump_bot_CFLAGS) $(CFLAGS) \
 	$(AM_LDFLAGS) $(LDFLAGS) -o $@
 DEFAULT_INCLUDES = -I.@am__isrc@
@@ -106,6 +106,7 @@ PACKAGE_STRING = @PACKAGE_STRING@
 PACKAGE_TARNAME = @PACKAGE_TARNAME@
 PACKAGE_VERSION = @PACKAGE_VERSION@
 PATH_SEPARATOR = @PATH_SEPARATOR@
+PTH_LDFLAGS = @PTH_LDFLAGS@
 PYTHON_CFLAGS = @PYTHON_CFLAGS@
 PYTHON_LDFLAGS = @PYTHON_LDFLAGS@
 SET_MAKE = @SET_MAKE@
@@ -155,7 +156,7 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 hexdump_bot_CFLAGS = $(PYTHON_CFLAGS) $(CFLAGS)
-hexdump_bot_LDADD = $(PYTHON_LDFLAGS)
+hexdump_bot_LDADD = $(PYTHON_LDFLAGS) $(PTH_LDFLAGS) -lpthread
 hexdump_bot_SOURCES = main.c network.c sendqueue.c inqueue.c python_api.c irc_bindings.c irc_struct.c irc.c util.c
 all: config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-am
