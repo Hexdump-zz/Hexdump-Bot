@@ -1806,7 +1806,6 @@ ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 
-
 am__api_version='1.10'
 
 ac_aux_dir=
@@ -4727,7 +4726,8 @@ done
 
 
 
-for ac_func in printf open close read free malloc strdup strsep
+
+for ac_func in printf open close read free malloc strsep kevent kqueue
 do
 as_ac_var=`$as_echo "ac_cv_func_$ac_func" | $as_tr_sh`
 { $as_echo "$as_me:$LINENO: checking for $ac_func" >&5

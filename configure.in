@@ -16,6 +16,12 @@ PYTHON_LDFLAGS=`python-config --ldflags`
 
 AM_PROG_CC_C_O
 AC_HEADER_STDC
+
+AC_ARG_WITH(pth,
+	[ --with-pth],
+	[PTH_LDFLAGS=`pth-config --ldflags`]
+)
+
 AC_CHECK_HEADERS(Python.h stdio.h stdlib.h stdbool.h unistd.h sys/types.h string.h fcntl.h assert.h pthread.h)
 
 AC_CHECK_FUNCS(printf open close read free malloc strdup strsep)
@@ -23,4 +29,5 @@ AC_CHECK_FUNCS(printf open close read free malloc strdup strsep)
 
 AC_SUBST(PYTHON_CFLAGS)
 AC_SUBST(PYTHON_LDFLAGS)
+AC_SUBST(PTH_LDFLAGS)
 AC_OUTPUT(Makefile src/Makefile)
