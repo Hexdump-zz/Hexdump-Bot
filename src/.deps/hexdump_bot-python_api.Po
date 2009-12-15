@@ -1,0 +1,270 @@
+hexdump_bot-python_api.o hexdump_bot-python_api.o: python_api.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/unistd.h /usr/include/assert.h /usr/include/pthread.h \
+  /usr/include/machine/_limits.h /usr/include/sched.h /usr/include/time.h \
+  /usr/local/include/python2.6/Python.h \
+  /usr/local/include/python2.6/patchlevel.h \
+  /usr/local/include/python2.6/pyconfig.h \
+  /usr/local/include/python2.6/pymacconfig.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/stdlib.h /usr/local/include/python2.6/pyport.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/math.h /usr/include/sys/time.h /usr/include/sys/stat.h \
+  /usr/include/osreldate.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/wctype.h \
+  /usr/local/include/python2.6/pymath.h \
+  /usr/local/include/python2.6/pymem.h \
+  /usr/local/include/python2.6/object.h \
+  /usr/local/include/python2.6/objimpl.h \
+  /usr/local/include/python2.6/pydebug.h \
+  /usr/local/include/python2.6/unicodeobject.h /usr/include/stdarg.h \
+  /usr/include/wchar.h /usr/local/include/python2.6/intobject.h \
+  /usr/local/include/python2.6/boolobject.h \
+  /usr/local/include/python2.6/longobject.h \
+  /usr/local/include/python2.6/floatobject.h \
+  /usr/local/include/python2.6/complexobject.h \
+  /usr/local/include/python2.6/rangeobject.h \
+  /usr/local/include/python2.6/stringobject.h \
+  /usr/local/include/python2.6/bufferobject.h \
+  /usr/local/include/python2.6/bytesobject.h \
+  /usr/local/include/python2.6/bytearrayobject.h \
+  /usr/local/include/python2.6/tupleobject.h \
+  /usr/local/include/python2.6/listobject.h \
+  /usr/local/include/python2.6/dictobject.h \
+  /usr/local/include/python2.6/enumobject.h \
+  /usr/local/include/python2.6/setobject.h \
+  /usr/local/include/python2.6/methodobject.h \
+  /usr/local/include/python2.6/moduleobject.h \
+  /usr/local/include/python2.6/funcobject.h \
+  /usr/local/include/python2.6/classobject.h \
+  /usr/local/include/python2.6/fileobject.h \
+  /usr/local/include/python2.6/cobject.h \
+  /usr/local/include/python2.6/traceback.h \
+  /usr/local/include/python2.6/sliceobject.h \
+  /usr/local/include/python2.6/cellobject.h \
+  /usr/local/include/python2.6/iterobject.h \
+  /usr/local/include/python2.6/genobject.h \
+  /usr/local/include/python2.6/descrobject.h \
+  /usr/local/include/python2.6/warnings.h \
+  /usr/local/include/python2.6/weakrefobject.h \
+  /usr/local/include/python2.6/codecs.h \
+  /usr/local/include/python2.6/pyerrors.h \
+  /usr/local/include/python2.6/pystate.h \
+  /usr/local/include/python2.6/pyarena.h \
+  /usr/local/include/python2.6/modsupport.h \
+  /usr/local/include/python2.6/pythonrun.h \
+  /usr/local/include/python2.6/ceval.h \
+  /usr/local/include/python2.6/sysmodule.h \
+  /usr/local/include/python2.6/intrcheck.h \
+  /usr/local/include/python2.6/import.h \
+  /usr/local/include/python2.6/abstract.h \
+  /usr/local/include/python2.6/compile.h \
+  /usr/local/include/python2.6/code.h /usr/local/include/python2.6/eval.h \
+  /usr/local/include/python2.6/pystrtod.h \
+  /usr/local/include/python2.6/pystrcmp.h \
+  /usr/local/include/python2.6/pyfpe.h irc_bindings.h inqueue.h \
+  sendqueue.h threading.h
+
+/usr/include/stdio.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_null.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/timespec.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/assert.h:
+
+/usr/include/pthread.h:
+
+/usr/include/machine/_limits.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/local/include/python2.6/Python.h:
+
+/usr/local/include/python2.6/patchlevel.h:
+
+/usr/local/include/python2.6/pyconfig.h:
+
+/usr/local/include/python2.6/pymacconfig.h:
+
+/usr/include/limits.h:
+
+/usr/include/sys/limits.h:
+
+/usr/include/sys/syslimits.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/errno.h:
+
+/usr/include/stdlib.h:
+
+/usr/local/include/python2.6/pyport.h:
+
+/usr/include/stdint.h:
+
+/usr/include/machine/_stdint.h:
+
+/usr/include/math.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/osreldate.h:
+
+/usr/include/ctype.h:
+
+/usr/include/_ctype.h:
+
+/usr/include/runetype.h:
+
+/usr/include/wctype.h:
+
+/usr/local/include/python2.6/pymath.h:
+
+/usr/local/include/python2.6/pymem.h:
+
+/usr/local/include/python2.6/object.h:
+
+/usr/local/include/python2.6/objimpl.h:
+
+/usr/local/include/python2.6/pydebug.h:
+
+/usr/local/include/python2.6/unicodeobject.h:
+
+/usr/include/stdarg.h:
+
+/usr/include/wchar.h:
+
+/usr/local/include/python2.6/intobject.h:
+
+/usr/local/include/python2.6/boolobject.h:
+
+/usr/local/include/python2.6/longobject.h:
+
+/usr/local/include/python2.6/floatobject.h:
+
+/usr/local/include/python2.6/complexobject.h:
+
+/usr/local/include/python2.6/rangeobject.h:
+
+/usr/local/include/python2.6/stringobject.h:
+
+/usr/local/include/python2.6/bufferobject.h:
+
+/usr/local/include/python2.6/bytesobject.h:
+
+/usr/local/include/python2.6/bytearrayobject.h:
+
+/usr/local/include/python2.6/tupleobject.h:
+
+/usr/local/include/python2.6/listobject.h:
+
+/usr/local/include/python2.6/dictobject.h:
+
+/usr/local/include/python2.6/enumobject.h:
+
+/usr/local/include/python2.6/setobject.h:
+
+/usr/local/include/python2.6/methodobject.h:
+
+/usr/local/include/python2.6/moduleobject.h:
+
+/usr/local/include/python2.6/funcobject.h:
+
+/usr/local/include/python2.6/classobject.h:
+
+/usr/local/include/python2.6/fileobject.h:
+
+/usr/local/include/python2.6/cobject.h:
+
+/usr/local/include/python2.6/traceback.h:
+
+/usr/local/include/python2.6/sliceobject.h:
+
+/usr/local/include/python2.6/cellobject.h:
+
+/usr/local/include/python2.6/iterobject.h:
+
+/usr/local/include/python2.6/genobject.h:
+
+/usr/local/include/python2.6/descrobject.h:
+
+/usr/local/include/python2.6/warnings.h:
+
+/usr/local/include/python2.6/weakrefobject.h:
+
+/usr/local/include/python2.6/codecs.h:
+
+/usr/local/include/python2.6/pyerrors.h:
+
+/usr/local/include/python2.6/pystate.h:
+
+/usr/local/include/python2.6/pyarena.h:
+
+/usr/local/include/python2.6/modsupport.h:
+
+/usr/local/include/python2.6/pythonrun.h:
+
+/usr/local/include/python2.6/ceval.h:
+
+/usr/local/include/python2.6/sysmodule.h:
+
+/usr/local/include/python2.6/intrcheck.h:
+
+/usr/local/include/python2.6/import.h:
+
+/usr/local/include/python2.6/abstract.h:
+
+/usr/local/include/python2.6/compile.h:
+
+/usr/local/include/python2.6/code.h:
+
+/usr/local/include/python2.6/eval.h:
+
+/usr/local/include/python2.6/pystrtod.h:
+
+/usr/local/include/python2.6/pystrcmp.h:
+
+/usr/local/include/python2.6/pyfpe.h:
+
+irc_bindings.h:
+
+inqueue.h:
+
+sendqueue.h:
+
+threading.h:

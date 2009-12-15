@@ -1,0 +1,59 @@
+sendqueue.o sendqueue.o: sendqueue.c /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/assert.h /usr/include/pthread.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/machine/_limits.h \
+  /usr/include/sys/_sigset.h /usr/include/sched.h /usr/include/time.h \
+  /usr/include/sys/timespec.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/select.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/event.h \
+  /usr/include/sys/queue.h sendqueue.h threading.h irc_struct.h network.h \
+  util.h
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_null.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/assert.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/machine/_limits.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/timespec.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/event.h:
+
+/usr/include/sys/queue.h:
+
+sendqueue.h:
+
+threading.h:
+
+irc_struct.h:
+
+network.h:
+
+util.h:

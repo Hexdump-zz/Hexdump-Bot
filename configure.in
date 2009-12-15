@@ -1,0 +1,26 @@
+AC_INIT(src/main.c)
+AM_INIT_AUTOMAKE(hexdump_bot, 0.0.1)
+AM_CONFIG_HEADER(src/config.h)
+
+AC_PROG_CC
+AC_LANG_C
+AC_PROG_CC_C99
+
+AC_PROG_INSTALL
+AC_PROG_MAKE_SET
+
+AC_C_INLINE
+
+PYTHON_CFLAGS=`python-config --cflags`
+PYTHON_LDFLAGS=`python-config --ldflags`
+
+AM_PROG_CC_C_O
+AC_HEADER_STDC
+AC_CHECK_HEADERS(Python.h stdio.h stdlib.h stdbool.h unistd.h sys/types.h string.h fcntl.h assert.h pthread.h)
+
+AC_CHECK_FUNCS(printf open close read free malloc strdup strsep)
+
+
+AC_SUBST(PYTHON_CFLAGS)
+AC_SUBST(PYTHON_LDFLAGS)
+AC_OUTPUT(Makefile src/Makefile)
